@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-5 p-0 m-5 p-0;
+  font-family: sans-serif;
+}
+
+h1 {
+  @apply text-[22px] mt-0;
+}
+
+h2 {
+  @apply text-xl mt-0;
+}
+
+h3 {
+  @apply text-lg mt-0;
+}
+
+h4 {
+  @apply text-base mt-0;
+}
+
+h5 {
+  @apply text-sm mt-0;
+}
+
+h6 {
+  @apply text-xs mt-0;
+}
+
+code {
+  @apply text-[1.2em];
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.square {
+  @apply border float-left text-2xl font-[bold] leading-[34px] h-[34px] text-center w-[34px] -mr-px -mt-px p-0 border-solid border-[#999];
+  background: #fff;
+}
+
+.board-row:after {
+  @apply clear-both content-[''] table;
+}
+
+.status {
+  @apply mb-2.5;
+}
+
+.game {
+  @apply flex flex-row;
+}
+
+.game-info {
+  @apply ml-5;
+}
