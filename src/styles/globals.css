@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply m-5 p-0 m-5 p-0;
+  @apply m-5 p-0;
   font-family: sans-serif;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .game {
-  @apply flex flex-row;
+  @apply flex flex-row justify-center items-center h-[100vh];
 }
 
 .game-info {
